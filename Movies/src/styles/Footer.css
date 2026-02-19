@@ -1,0 +1,31 @@
+.footer {
+    padding: 50px 4%;
+    color: #757575;
+    font-size: 13px;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.footer-link {
+    cursor: pointer;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer-text {
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .footer-links {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
