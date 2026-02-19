@@ -1,5 +1,5 @@
 const API_KEY = 'ae97db77';
-const BASE_URL = 'http://www.omdbapi.com';
+const BASE_URL = 'https://www.omdbapi.com';
 
 // Transform OMDb movie details to our app's format
 const transformMovie = (movie) => ({
